@@ -1,7 +1,13 @@
 import React from "react";
+import Home from "../home.jsx";
 
 const shop = () => {
-  return <div className="">shop page</div>;
+  return (
+    <div>
+      <Home />
+      <p>shop page</p>
+    </div>
+  );
 };
 
 export default shop;
