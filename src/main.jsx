@@ -15,8 +15,8 @@ import "././assets/css/animate.css";
 import "././assets/css/style.min.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Blog from "../src/Blog.jsx";
-import Home from "../src/home.jsx";
+import Blog from "./Blog.jsx";
+import Home from "./home.jsx";
 
 const router = createBrowserRouter([
   {
